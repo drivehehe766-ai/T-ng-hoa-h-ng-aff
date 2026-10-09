@@ -6,7 +6,7 @@ from datetime import date
 # Cấu hình trang
 st.set_page_config(page_title="Tổng hợp đơn TikTok Affiliate", layout="wide")
 
-st.title("📊 Dashboard Tổng Hợp Đơn Hàng TikTok Affiliate")
+st.title("📊 Dashboard Tổng Hợp Đơn Hàng TikTok Affiliate (phát triển bởi QH)")
 st.markdown("Hệ thống tự động trích xuất Tên sản phẩm, GMV, % Hoa hồng, Tiền nhận được cuối cùng, Trạng thái và Lọc theo ngày.")
 
 uploaded_file = st.file_uploader("Tải lên file Excel xuất từ TikTok của bạn", type=["csv", "xlsx"])
